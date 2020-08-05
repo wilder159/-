@@ -12,17 +12,17 @@ void wait()
 }
 int main()
 {
- /* å±€éƒ¨å˜é‡å®šä¹‰ */
+ /* ¾Ö²¿±äÁ¿¶¨Òå */
    int a = 10;
  
-   /* ä½¿ç”¨ if è¯­å¥æ£€æŸ¥å¸ƒå°”æ¡ä»¶ */
+   /* Ê¹ÓÃ if Óï¾ä¼ì²é²¼¶ûÌõ¼þ */
    if( a < 20 )
    {
-       /* å¦‚æžœæ¡ä»¶ä¸ºçœŸï¼Œåˆ™è¾“å‡ºä¸‹é¢çš„è¯­å¥ */
-       printf("a å°äºŽ 20\n" );
+       /* Èç¹ûÌõ¼þÎªÕæ£¬ÔòÊä³öÏÂÃæµÄÓï¾ä */
+       printf("a Ð¡ÓÚ 20\n" );
 
    }
-   printf("a çš„å€¼æ˜¯ %d\n", a);
+   printf("a µÄÖµÊÇ %d\n", a);
  
    return 0;
 }
